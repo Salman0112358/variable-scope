@@ -7,9 +7,9 @@ const stringSeparator = '-- PLUS --';
 
 console.log("Entering my loop:");
 
-for (let fruit of fruitArr) {
+for (let fruit of fruitArr) { // fruitArr is part of the global scope 
   console.log(fruit);
-  console.log(stringSeparator);
+  console.log(stringSeparator); //global scope reference 
 }
 
 console.log("Exited my loop!")
